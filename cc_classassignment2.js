@@ -13,3 +13,13 @@ let products = [
 
 // Task 2
 
+function applydicount(products, discountRate){
+    return products.map(product => ({
+        ...product,
+        price: product.price - (product.price * discountRate)
+    }
+
+    ))
+}
+
+console.log(applydicount(products,.1))
