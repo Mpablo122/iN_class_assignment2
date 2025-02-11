@@ -5,8 +5,11 @@ let products = [
     {name: "Banana", price: 2.00, category: "Produce"}
 ]
 
-function getProductsByCategory(products, category) {
-    return products.filter(product => product.category === category)
-};
+// function getProductsByCategory(products, category) {
+//    return products.filter(product => product.category === category)
+// };
 
-console.log(getProductsByCategory(products, "Electronics"));
+// console.log(getProductsByCategory(products, "Electronics"));
+
+// Task 2
+
